@@ -56,6 +56,12 @@ sudo apt-get install dotnet-sdk-6.0
 - Os comandos para Linux podem variar dependendo da sua distro.
 
 
+### Clonar o repositorio
+```bash
+git clone https://github.com/Mizaeldouglas/todoApi-AspNet.git
+```
+### Iniciar o projeto na sua maquina
+
 ```bash
   dotnet restore
   dotnet build
