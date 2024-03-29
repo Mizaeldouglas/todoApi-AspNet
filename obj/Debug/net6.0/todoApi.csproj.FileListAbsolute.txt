@@ -270,3 +270,4 @@
 /Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/todoApi/obj/Debug/net6.0/todoApi.csproj.Up2Date
 /Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/todoApi/obj/Debug/net6.0/todoApi.genruntimeconfig.cache
 /Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/todoApi/obj/Debug/net6.0/ref/todoApi.dll
+/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/todoApi/obj/Debug/net6.0/todoApi.sourcelink.json

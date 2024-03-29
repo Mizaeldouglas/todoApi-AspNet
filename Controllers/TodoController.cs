@@ -44,6 +44,35 @@ namespace todoApi.Controllers
 
             return Ok(todo);
         }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(Todo todo,int id)
+        {
+            var findById = _context.Todos.Find(id);
+            if (findById == null)
+            {
+                return NotFound();
+            }
+            _context.Entry(findById).CurrentValues.SetValues(todo);
+            _context.SaveChanges();
+
+            return Ok(findById);
+        }
+        
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var findById = _context.Todos.Find(id);
+            if (findById == null)
+            {
+                return NotFound();
+            }
+
+            _context.Todos.Remove(findById);
+            _context.SaveChanges();
+
+            return NoContent();
+        }
        
 
     }
